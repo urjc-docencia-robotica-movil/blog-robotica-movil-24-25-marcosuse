@@ -1,42 +1,72 @@
-# blog-robotica-movil-24-25-marcosuse
+# Mobile Robotics Blog 24-25 - MarcosUse
 
-# Tabla de Contenidos
-1. [practica](#practica)
-2. [logic](#logic)
-3. [problems](#problems)
+## Table of Contents
+1. [Practice](#practice)
+2. [Logic](#logic)
+3. [Problems and Tests](#problems-and-tests)
+4. [Videos](#videos)
 
-# practica
-el programa esta concebido para resolver el problema de una "rumba" que es un robot autonomo que se usa para limpiar una casa, esta rumba se supone que es (por asi decirlo) tonta ya que no puede acceder a su posicion dentro del mapa por lo que esto complica mucho su funcionamiento eficciente ya que tienes que recurrir a el uso de de la aletoriedad para poder recorrer vien la casa. 
+## Practice
 
-## Hardware
-para este programa contamos con principalmente dos tipos de sensores.
-### Bumper
-Uno de los sensores es el bumper que tras poner un comando nos devolvera 0 en caso de que no se choque con nada y 1 en caso de que se choque.
-tambien cuenta con 3 diferentes bumpers a cada lado que tras poner otro comando nos devolvera 0, 1 o 2 dependiendo del bumper con el que se choque.
-### Laser
-Otro de los sensores que tenemos en funcionamiento es el laser, este cuenta con un angulo de 180 desde el lateral de el robot y funciona emitiendo luz láser pulsada en el entorno. Estos impulsos viajan a la velocidad de la luz, rebotan en los objetos circundantes y vuelven al sensor de esta forma calculando el tiempo en el que tardan puedes saber donde se encuentran las cosas.
+This project focuses on solving the problem of a "Roomba," an autonomous robot used for cleaning a house. In this case, the Roomba cannot access its position on the map, which complicates its efficient operation. To address this limitation, randomness is used to allow the robot to effectively navigate the house.
 
-# logic
-la logica de mi programa siguiendo el siguiente diagrama de estados:
+### Hardware
 
-![Texto alternativo](https://github.com/urjc-docencia-robotica-movil/blog-robotica-movil-24-25-marcosuse/blob/main/r_movil/Diagrama_vacumm.drawio.png)
+In this project, we are using two main types of sensors:
 
-Parece que es un poco lioso pero cuando lo explique quedara mas claro.
+#### Bumper
 
-## Modulos 
-### Forward
-  el modulo forward se basa de ir hacia delante y esa es la unica accion que hace, este puede cambiar a Disturn, Back o Spiral
-### Back 
-  este se ocupa de ir hacia atras un tiempo aleatorio y puede cambiar a Turn, Starturn, Disturn.
-### Turn 
-  Este se encarga de girar hacia cualquier de los lados durante un tiempo aleatorio y siempre cambia a Forward.
-### Disturn
-  Este gira hacia un lado que tenga mas de 2 metros de distancia hacia delante y siempre cambia a Forward.
-### Starturn
-  el modulo de starturn se encarga de girar muy poco para que cuando avance haga un patron de estrella y siempre cambia a Forward.
-### Spiral
-  se encarga de hacer una spiral y la he realizado modificando la velocidad segun el tiempo y siempre cambia a Back
+One of the sensors is the "bumper," which, after receiving a command, returns a value of 0 if there is no collision and 1 if a collision has occurred. Additionally, it has three bumpers on each side, which return values of 0, 1, or 2 depending on which bumper has been triggered.
 
-## Problemas
+#### Laser
 
-  
+Another key sensor is the laser. This sensor has a 180-degree field of view from the side of the robot and works by emitting pulsed laser light into the environment. These pulses travel at the speed of light, bounce off surrounding objects, and return to the sensor. By measuring the time they take to return, the sensor calculates the distance to the objects.
+
+## Logic
+
+The program's logic follows the following state diagram:
+
+![State Diagram](https://github.com/urjc-docencia-robotica-movil/blog-robotica-movil-24-25-marcosuse/blob/main/r_movil/Diagrama_vacumm.drawio.png)
+
+At first glance, it may seem complicated, but it will become clearer upon explanation.
+
+### Modules
+
+#### Forward
+The "Forward" module is responsible for moving straight ahead. This module can transition to the states: `Disturn`, `Back`, or `Spiral`.
+
+#### Back
+This module makes the robot move backward for a random amount of time, and it can transition to the states: `Turn`, `Starturn`, or `Disturn`.
+
+#### Turn
+The "Turn" module makes the robot turn in a random direction for a specified amount of time. It always transitions to `Forward`.
+
+#### Disturn
+The "Disturn" module makes the robot turn towards a direction where there is more than 2 meters of space ahead. It always transitions to `Forward`.
+
+#### Starturn
+The "Starturn" module performs slight turns so that the robot moves in a star pattern. It always transitions to `Forward`.
+
+#### Spiral
+The "Spiral" module makes the robot follow a spiral pattern, adjusting its speed over time. It always transitions to `Back`.
+
+## Problems and Tests
+
+### Problems
+
+One of the main challenges I faced during this practice was deciding how to approach the code design. I opted for a solution in which many decisions, such as the turning angle and the duration of the backward movement, are made randomly. While this is not the most efficient approach, the code sometimes works well, though other times it does not.
+
+Another issue I encountered, which seems to be exclusive to me (as my classmates did not experience it), is that the laser sensor appears to collapse when the robot is too close to an object, returning incorrect values. I am unsure how this will behave on other computers.
+
+Finally, a problem related to the program itself is that when the robot enters a room, it sometimes gets stuck. To address this, I implemented the `Disturn` state, which makes the robot turn towards a direction with enough space to move forward.
+
+### Tests
+
+The tests I have conducted primarily focus on ensuring the robot can escape tight spaces. Although it still struggles, it usually manages to get out within 3 minutes and 30 seconds, which I consider a decent outcome.
+
+I also conducted tests with the laser sensor to understand why it wasn't working properly. After numerous tests in different environments, I still haven't identified the cause of the incorrect readings.
+
+## Videos
+
+Below are videos and screenshots showing when the code performed correctly and when it did not.
+
