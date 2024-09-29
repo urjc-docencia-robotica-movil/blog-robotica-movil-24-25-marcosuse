@@ -18,3 +18,5 @@ Otro de los sensores que tenemos en funcionamiento es el laser, este cuenta con 
 
 # logic
 la logica de mi programa siguiendo el siguiente diagrama de estados:
+
+![Texto alternativo](https://github.com/urjc-docencia-robotica-movil/blog-robotica-movil-24-25-marcosuse/blob/main/r_movil/Diagrama_vacumm.drawio)
