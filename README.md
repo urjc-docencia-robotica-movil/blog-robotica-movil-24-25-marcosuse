@@ -10,10 +10,6 @@ el programa esta concebido para resolver el problema de una "rumba" que es un ro
 
 ## Hardware
 para este programa contamos con principalmente dos tipos de sensores.
-uno de ellos es el bumper que tras poner el siguiente comando nos devolvera 0 en caso de que no se choque con nada y 1 en caso de que se choque.
-```python
-HAL.getBumperData().state
-```
 ### Bumper
 Uno de los sensores es el bumper que tras poner el siguiente comando nos devolvera 0 en caso de que no se choque con nada y 1 en caso de que se choque.
 ```python
