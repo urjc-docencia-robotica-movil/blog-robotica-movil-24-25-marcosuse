@@ -33,7 +33,7 @@ At first glance, it may seem complicated, but it will become clearer upon explan
 ### Modules
 
 #### Forward
-The "Forward" module is responsible for moving straight ahead. This module can transition to the states: `Disturn`, `Back`, or `Spiral`.
+The "Forward" module is responsible for moving straight ahead and if it takes too much time it rotates while is going forward. This module can transition to the states: `Disturn`, `Back`, or `Spiral`.
 
 #### Back
 This module makes the robot move backward for a random amount of time, and it can transition to the states: `Turn`, `Starturn`, or `Disturn`.
