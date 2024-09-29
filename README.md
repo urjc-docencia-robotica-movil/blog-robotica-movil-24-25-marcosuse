@@ -58,7 +58,10 @@ One of the main challenges I faced during this practice was deciding how to appr
 
 Another issue I encountered, which seems to be exclusive to me (as my classmates did not experience it), is that the laser sensor appears to collapse when the robot is too close to an object, returning incorrect values. I am unsure how this will behave on other computers.
 
-Finally, a problem related to the program itself is that when the robot enters a room, it sometimes gets stuck. To address this, I implemented the `Disturn` state, which makes the robot turn towards a direction with enough space to move forward.
+One problem related to the program itself is that when the robot enters a room, it sometimes gets stuck. To address this, I implemented the `Disturn` state, which makes the robot turn towards a direction with enough space to move forward.
+
+Finally the last problem i saw and i completely dislike is that the chairs in the corner can be passed from below so the map is wrong and scaping from there is so difficult.
+
 
 ### Tests
 
@@ -66,7 +69,14 @@ The tests I have conducted primarily focus on ensuring the robot can escape tigh
 
 I also conducted tests with the laser sensor to understand why it wasn't working properly. After numerous tests in different environments, I still haven't identified the cause of the incorrect readings.
 
-## Videos
-
+# Videos
 Below are videos and screenshots showing when the code performed correctly and when it did not.
+## Screenshots
+the following screenshots were made when the robot was running 10 minutes straigh 
+![State Diagram](https://github.com/urjc-docencia-robotica-movil/blog-robotica-movil-24-25-marcosuse/blob/main/r_movil/Diagrama_vacumm.drawio.png)
+
+![State Diagram](https://github.com/urjc-docencia-robotica-movil/blog-robotica-movil-24-25-marcosuse/blob/main/r_movil/Diagrama_vacumm.drawio.png)
+## videos
+
+
 
