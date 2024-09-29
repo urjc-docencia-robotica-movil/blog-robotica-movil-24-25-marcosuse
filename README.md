@@ -26,7 +26,7 @@ Another key sensor is the laser. This sensor has a 180-degree field of view from
 
 The program's logic follows the following state diagram:
 
-![State Diagram](https://github.com/urjc-docencia-robotica-movil/blog-robotica-movil-24-25-marcosuse/blob/main/r_movil/Diagrama_vacumm.drawio.png)
+![State Diagram](https://github.com/urjc-docencia-robotica-movil/blog-robotica-movil-24-25-marcosuse/blob/main/r_movil/Diagrama_vacumm.drawio(1).png)
 
 At first glance, it may seem complicated, but it will become clearer upon explanation.
 
@@ -73,10 +73,14 @@ I also conducted tests with the laser sensor to understand why it wasn't working
 Below are videos and screenshots showing when the code performed correctly and when it did not.
 ## Screenshots
 the following screenshots were made when the robot was running 10 minutes straigh 
-![State Diagram](https://github.com/urjc-docencia-robotica-movil/blog-robotica-movil-24-25-marcosuse/blob/main/r_movil/Diagrama_vacumm.drawio.png)
+![cap 1](https://github.com/urjc-docencia-robotica-movil/blog-robotica-movil-24-25-marcosuse/blob/main/r_movil/Captura%20desde%202024-09-29%2017-08-09.png)
 
-![State Diagram](https://github.com/urjc-docencia-robotica-movil/blog-robotica-movil-24-25-marcosuse/blob/main/r_movil/Diagrama_vacumm.drawio.png)
+![cap 2](https://github.com/urjc-docencia-robotica-movil/blog-robotica-movil-24-25-marcosuse/blob/main/r_movil/Captura%20desde%202024-09-28%2020-03-48.png)
 ## videos
+the following video is a simulation in 15 minutes of the robot
+![video](https://github.com/urjc-docencia-robotica-movil/blog-robotica-movil-24-25-marcosuse/blob/main/r_movil/output.gif)
+
+
 
 
 
