@@ -83,6 +83,7 @@ the following video is a simulation in 15 minutes of the robot
 
 ![video](https://github.com/urjc-docencia-robotica-movil/blog-robotica-movil-24-25-marcosuse/blob/main/r_movil/output.gif)
 
+![video 2](https://github.com/urjc-docencia-robotica-movil/blog-robotica-movil-24-25-marcosuse/blob/main/r_movil/vacumg.gif)
 
 
 
