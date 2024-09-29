@@ -72,12 +72,15 @@ I also conducted tests with the laser sensor to understand why it wasn't working
 # Videos
 Below are videos and screenshots showing when the code performed correctly and when it did not.
 ## Screenshots
-the following screenshots were made when the robot was running 10 minutes straigh 
+the following screenshots were made when the robot was running 10 minutes straight
+
 ![cap 1](https://github.com/urjc-docencia-robotica-movil/blog-robotica-movil-24-25-marcosuse/blob/main/r_movil/Captura%20desde%202024-09-29%2017-08-09.png)
 
 ![cap 2](https://github.com/urjc-docencia-robotica-movil/blog-robotica-movil-24-25-marcosuse/blob/main/r_movil/Captura%20desde%202024-09-28%2020-03-48.png)
+
 ## videos
 the following video is a simulation in 15 minutes of the robot
+
 ![video](https://github.com/urjc-docencia-robotica-movil/blog-robotica-movil-24-25-marcosuse/blob/main/r_movil/output.gif)
 
 
