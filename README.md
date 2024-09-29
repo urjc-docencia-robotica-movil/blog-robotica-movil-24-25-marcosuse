@@ -20,3 +20,22 @@ Otro de los sensores que tenemos en funcionamiento es el laser, este cuenta con 
 la logica de mi programa siguiendo el siguiente diagrama de estados:
 
 ![Texto alternativo](https://github.com/urjc-docencia-robotica-movil/blog-robotica-movil-24-25-marcosuse/blob/main/r_movil/Diagrama_vacumm.drawio.png)
+
+Parece que es un poco lioso pero cuando lo explique quedara mas claro.
+
+## Modulos 
+### Forward
+  el modulo forward se basa de ir hacia delante y esa es la unica accion que hace, este puede cambiar a Disturn, Back o Spiral
+### Back 
+  este se ocupa de ir hacia atras un tiempo aleatorio y puede cambiar a Turn, Starturn, Disturn.
+### Turn 
+  Este se encarga de girar hacia cualquier de los lados durante un tiempo aleatorio y siempre cambia a Forward.
+### Disturn
+  Este gira hacia un lado que tenga mas de 2 metros de distancia hacia delante y siempre cambia a Forward.
+### Starturn
+  el modulo de starturn se encarga de girar muy poco para que cuando avance haga un patron de estrella y siempre cambia a Forward.
+### Spiral
+  se encarga de hacer una spiral y la he realizado modificando la velocidad segun el tiempo y siempre cambia a Back
+
+
+  
