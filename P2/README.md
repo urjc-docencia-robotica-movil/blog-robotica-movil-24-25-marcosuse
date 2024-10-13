@@ -44,7 +44,7 @@ In This part i get 30 secs aprox.
 
 
 ### montmelo circuit
-In This part i get 360 secs aprox.
+In This part i get 60 secs aprox.
 
 [Montmelo](https://urjc-my.sharepoint.com/:v:/g/personal/m_useros_2022_alumnos_urjc_es/ETTBkP2hLAZPhygpfE21x3wBvwxVX-hhKquLwmcACaxNgw?e=p20HwW&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
