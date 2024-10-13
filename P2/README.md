@@ -17,19 +17,16 @@ In this project, we are using only one sensors:
 We are using one camera in the front of the car, it is meant to be used for following the line, but there are many problems with the normal camera so we have to aply a mask for only seeing the red part. the mask i am using HSV to make the mask becouse it is way more effective than using the BGR becouse with the HSV we ca exclude a filter of the white that has all the colors.
 
 ## PID
-
+the PID is a way of getting rid of an error and in this case we are using it for two diferents problems, the turn in a curve and the accelerationd and deceleration. Every PID has three attributes and they are P, I and D. The P is the proportional part so it means that only with this part the F1 is going to be oscilating all the time and we calculate it by multiplicating the error with a kp chosen by me. The I part is the integral part and his job is to get rid of the estacionary error and we calculate it by adding all the errors acumulated. And the las part, the D part is the derivative part and the funcionality of this part is to make the turn smoother so we dont have to be going up and down of the red line.
+### Curve 
+As i am using the pid for the curves by calculating the centre of the image and the average of the red parts in the center row of the image and with that we substract the center of the image with the average of the red parts in the center row and that is how i calculate my error.
+### acceleration and deceleration 
+With the output i get from the pid of the curve i calculate the error of the aceleration, with mi PID i have to compare the error with 0 so i substract 1 with the output of the curve pid, and with that if the error is lower than 1 i accelerate and if the error is greater the F1 decelerate. 
 
 ## Problems and Tests
 
 ### Problems
-
-One of the main challenges I faced during this practice was deciding how to approach the code design. I opted for a solution in which many decisions, such as the turning angle and the duration of the backward movement, are made randomly. While this is not the most efficient approach, the code sometimes works well, though other times it does not.
-
-Another issue I encountered, which seems to be exclusive to me (as my classmates did not experience it), is that the laser sensor appears to collapse when the robot is too close to an object, returning incorrect values. I am unsure how this will behave on other computers.
-
-One problem related to the program itself is that when the robot enters a room, it sometimes gets stuck. To address this, I implemented the `Disturn` state, which makes the robot turn towards a direction with enough space to move forward.
-
-Finally the last problem i saw and i completely dislike is that the chairs in the corner can be passed from below so the map is wrong and scaping from there is so difficult.
+There were many problem with this practic, one of them was the mask of the camera, i was doing it with rgb and the color white was always red and that gives us so many problems so i resolve it by changing rgb with HSV, other problem was that the camera was not exactly in the center so i had to move it, another problem was that  
 
 
 ### Tests
