@@ -35,17 +35,22 @@ There were many problems with this project. One of them was the camera mask. Ini
 This time, I was always testing my program on the simple circuit, using the normal configuration and Ackermann steering. This is because, for some reason, when I change the circuit, the program's Hz drastically decreases. Another thing that took most of my time was adjusting the PID values.
 
 ## Videos
-Below are videos of the simple circuit without ackerman and with ackerman, and in the montmelo circuit without ackerman.
+Below are videos of the simple circuit without ackerman and with ackerman, and in the montmelo circuit without ackerman. All the videos are in 2X.
 
 ### simple circuit
+In This part i get 30 secs aprox.
+
 [Simple](https://urjc-my.sharepoint.com/:v:/g/personal/m_useros_2022_alumnos_urjc_es/EQTt9frgUwpNkVt4oVnQaq8BSJr93ms-8NMZaChUQ3B0eg?e=J5tyyc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
 ### montmelo circuit
+In This part i get 360 secs aprox.
+
 [Montmelo](https://urjc-my.sharepoint.com/:v:/g/personal/m_useros_2022_alumnos_urjc_es/ETTBkP2hLAZPhygpfE21x3wBvwxVX-hhKquLwmcACaxNgw?e=p20HwW&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
 ### Ackerman simple circuit.
+In This part i get 80 secs aprox until it stops.
 
 [Video Ackerman crashed](https://urjc-my.sharepoint.com/:v:/g/personal/m_useros_2022_alumnos_urjc_es/EYafU0l0vvhCtcBd-NyHfYMBjRgDGWDA2XxHD_7vG95lCg?e=Ol6VkM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
