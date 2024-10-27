@@ -32,7 +32,7 @@ The behavior of the car is based in a changing role function:
 - when the car has an obstacle it behaves as a normal VFF.
 - when the car has no obstacle it accelerates.
 - when the car is near a wall it tries to go away of the wall.
-- when the target is near a wall the car becomes braver than it was so he has to be near an obstacle.
+- when the target is near a wall the car becomes braver than it was because he has to be near an obstacle.
 
 ## Problems and Testing
 
