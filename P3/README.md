@@ -48,7 +48,7 @@ The algorithm was tested to check its ability to avoid obstacles and maintain a 
 
 ## Videos
 
-Below are demonstration videos showcasing the car’s behavior in different scenarios. All videos are sped up 2x for viewing efficiency.
+Below are demonstration videos showcasing the car’s behavior in different scenarios. The videos is sped up 2x for viewing efficiency.
 
 ### Test Circuit
 - [Circuit avoiding obstacles duration: 90 secs](#https://urjc-my.sharepoint.com/:v:/g/personal/m_useros_2022_alumnos_urjc_es/EamKTvBBYtdLk4_Zw8G9HlYBogE9Oea7hRY8AVJnuGJLEg?e=vRbK3a&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)  
