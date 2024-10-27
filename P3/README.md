@@ -1,7 +1,7 @@
 ## Table of Contents
 1. [Practice](#practice)
 2. [VFF Implementation](#vff-implementation)
-3. [Challenges and Testing](#challenges-and-testing)
+3. [Problems and Testing](#problems-and-testing)
 4. [Videos](#videos)
 
 ## Practice
