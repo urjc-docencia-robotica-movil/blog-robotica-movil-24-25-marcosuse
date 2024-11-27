@@ -47,17 +47,17 @@ The algorithm was tested to verify:
 ## Videos
 
 Below are demonstration videos showcasing the taxi’s navigation in various scenarios. The videos include examples of:
-- navigation to one target
+- Navigation to one target
 
-[one target]()
+[One target]()
 
--navigation to multiple targets
+- Navigation to multiple targets
 
-[multiple targets]()
+[Multiple targets]()
 
-- near wall target
+- Near wall target
 
-[near wall]()
+[Near wall]()
 
 
 
