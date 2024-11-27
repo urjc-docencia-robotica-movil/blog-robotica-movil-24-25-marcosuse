@@ -37,6 +37,7 @@ The car navigates based on the cost gradient:
 Several challenges were encountered during implementation:
 - **Obstacle Avoidance:** Ensuring the car does not collide with walls while navigating. To do that i had to gues the correct number of pixels each wall have to expand and the cost of it
 - **Expansion time:** becouse of the number of pixels we had to process, the expansion last longer than i expected so i had to make the algorithim to show the resulst every X iterations, that makes the wave go so much faster and the diference is not visible.
+- **repulsive vector:** the implementation of a vector repulsive vector if a wall is near was difficult i causes many problems.
 
 ### Tests
 The algorithm was tested to verify:
@@ -49,15 +50,11 @@ The algorithm was tested to verify:
 Below are demonstration videos showcasing the taxi’s navigation in various scenarios. The videos include examples of:
 - Navigation to one target
 
-[One target]()
+[One target](https://urjc-my.sharepoint.com/:v:/g/personal/m_useros_2022_alumnos_urjc_es/ESIGz3tgWgpKlPgYFfsnpIQBHbWyI-GUivAgbe3gKiDaNA?e=UKdu9j&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 - Navigation to multiple targets
 
-[Multiple targets]()
-
-- Near wall target
-
-[Near wall]()
+[Multiple targets](https://urjc-my.sharepoint.com/:v:/g/personal/m_useros_2022_alumnos_urjc_es/EbCdsDBh9kZAo9UqJpQqJbgBXag8yRYiOua4Z4eBcYwymg?e=xKrIQJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
 
