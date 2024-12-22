@@ -4,12 +4,6 @@
 1. [Objective](#objective)
 2. [Implementation Details](#implementation-details)
    - [Particle Initialization](#particle-initialization)
-   - [Weight Estimation](#weight-estimation)
-   - [Particle Propagation](#particle-propagation)
-   - [Optimization and Efficiency](#optimization-and-efficiency)
-3. [Problems and Testing](#problems-and-testing)
-4. [Videos](#videos)
-5. [References](#references)
 
 ## Objective
 
