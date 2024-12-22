@@ -8,7 +8,6 @@
    - [Optimization and Efficiency](#optimization-and-efficiency)
 3. [Problems and Testing](#problems-and-testing)
 4. [Videos](#videos)
-5. [References](#references)
 
 ## Objective
 
